@@ -1,6 +1,7 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
     <title>Projects</title>
     <link rel="stylesheet" href="style.css">
 </head>
@@ -8,6 +9,7 @@
 
 <header>
     <h1>Projects</h1>
+
     <nav>
         <a href="index.html">Home</a>
         <a href="about.html">About</a>
@@ -15,13 +17,69 @@
     </nav>
 </header>
 
-<section>
-    <h3>DParadox</h3>
-    <p>Spring Boot + Kafka + WebSocket platform.</p>
+<main>
 
-    <h3>RiskLens</h3>
-    <p>ML-based fraud detection API using FastAPI.</p>
-</section>
+    <section>
+        <h3>DParadox – Live Learning Marketplace Platform</h3>
+        <p><strong>Jan 2024 – Jun 2024</strong></p>
+
+        <ul>
+            <li>
+                Built a production-grade live learning platform using Spring Boot and Angular,
+                supporting tutor discovery, scheduling, live classes, chat, and recordings.
+            </li>
+
+            <li>
+                Implemented JWT-based authentication and role-based access control using Spring Security
+                for students, tutors, and admins.
+            </li>
+
+            <li>
+                Designed a conflict-free scheduling system using interval overlap detection
+                to prevent overbooking under concurrent requests.
+            </li>
+
+            <li>
+                Developed real-time communication using WebRTC and WebSockets, and built a scalable backend
+                with PostgreSQL, AWS S3, Docker, and Kafka-based notifications.
+            </li>
+        </ul>
+    </section>
+
+    <section>
+        <h3>RiskLens – Credit Risk & Fraud Detection System</h3>
+        <p><strong>Jul 2023 – Dec 2023</strong></p>
+
+        <ul>
+            <li>
+                Built end-to-end machine learning models for credit risk scoring and transaction fraud detection
+                using real-world financial datasets.
+            </li>
+
+            <li>
+                Performed data preprocessing and feature engineering, and trained models including
+                Logistic Regression, Random Forest, and XGBoost.
+            </li>
+
+            <li>
+                Evaluated model performance using ROC-AUC, precision-recall, and false-positive rates.
+            </li>
+
+            <li>
+                Implemented explainable AI (SHAP) to provide feature-level insights and ensure model transparency.
+            </li>
+
+            <li>
+                Deployed models as REST APIs using FastAPI for real-time prediction services.
+            </li>
+        </ul>
+    </section>
+
+</main>
+
+<footer>
+    <p>© 2026 Amit Gurumukhi</p>
+</footer>
 
 </body>
 </html>
